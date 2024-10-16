@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# TensorFlow/Model checkpoints
+checkpoint
+trained_classifier.h5
+trained_autoencoder.h5
+*.h5
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+*.dll
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# LIME-related artifacts
+explanations/
+
+# Environment files (optional)
+.env
+.env.*
+
+# IDE or Editor files
+.vscode/
+.idea/
+
+# Large Data Files (if any)
+data/
+*.csv
+*.npz
+*.npy
